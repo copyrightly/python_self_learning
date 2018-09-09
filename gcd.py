@@ -6,11 +6,7 @@ y_array = [0,1]
 
 m = a
 n = b
-if m < n:
-    u = m
-    m = n
-    n = u
-    
+
 i = 0
 while m % n > 0:
     q = m//n
@@ -23,10 +19,5 @@ while m % n > 0:
 
 x = x_array[len(x_array) - 1]
 y = y_array[len(y_array) - 1]
-
-if a < b:
-    h = x
-    x = y
-    y = h
     
 print("x=",x, "y=",y, "gcd=", a * x + b * y)
